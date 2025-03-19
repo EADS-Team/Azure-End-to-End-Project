@@ -24,12 +24,10 @@ To fulfill these requirements, the solution is structured into the following com
 * Load the extracted data into Azure Data Lake Storage (ADLS) using Azure Data Factory (ADF).
 2. **Data Transformation** :
 * Use Azure Databricks to clean and transform raw data.
-* Implement a Bronze-Silver-Gold data architecture:
-  
+* Implement a Bronze-Silver-Gold data architecture: 
       * Bronze Layer – Stores raw ingested data.
       * Silver Layer – Contains cleansed and structured data.
       * Gold Layer – Holds aggregated data for analytics and reporting.
-  
 3. **Data Storage and Reporting** :
 * Load the processed data into Azure Synapse Analytics for optimized querying and analysis.
 * Develop a Power BI dashboard to visualize insights and enable data-driven decision-making.

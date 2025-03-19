@@ -19,7 +19,7 @@ The business aims to gain a deeper understanding of customer demographics—part
 
 To fulfill these requirements, the solution is structured into the following components:
 
-1.**Data Ingestion** :
+1. **Data Ingestion** :
 * Extract customer and sales data from an on-premises SQL Server database.
 * Load the extracted data into Azure Data Lake Storage (ADLS) using Azure Data Factory (ADF).
 2. **Data Transformation** :

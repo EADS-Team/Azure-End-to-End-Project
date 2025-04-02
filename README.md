@@ -29,7 +29,7 @@ To fulfill these requirements, the solution is structured into the following com
       * Silver Layer – Contains cleansed and structured data.
       * Gold Layer – Holds aggregated data for analytics and reporting.
 3. **Data Storage and Reporting** :
-* Load the processed data into Azure Synapse Analytics for optimized querying and analysis.
+* Load the processed data into Azure Datalake Gen2 Gold Container for analysis.
 * Develop a Power BI dashboard to visualize insights and enable data-driven decision-making.
 4. **Automation** :
 Schedule pipeline execution to run daily, ensuring data and reports remain up to date.

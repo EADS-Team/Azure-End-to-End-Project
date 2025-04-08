@@ -1,3 +1,3 @@
 USE AdventureWorksLT2019;
 
-GRANT SELECT ON SalesLT.Address TO Username;
+GRANT SELECT ON SCHEMA :: SalesLT TO username;

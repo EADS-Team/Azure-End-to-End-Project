@@ -72,8 +72,6 @@ Schedule pipeline execution to run daily, ensuring data and reports remain up to
 1) **Mount ADLS in Databricks** – Configure Databricks to read and write to Data Lake Storage.
 2) **Transform Data** – Use Databricks notebooks to clean, aggregate, and move data across Bronze → Silver → Gold layers.
 
-![Azure End to End Flow](Screenshots/Azure%20End%20to%20End%20flow.png)
-
 ### Step 4: Data Loading and Reporting :
 
 1) **Load Data into Synapse Analytics** – Set up a Synapse SQL pool and store transformed data for querying.
@@ -92,6 +90,8 @@ Schedule pipeline execution to run daily, ensuring data and reports remain up to
 
 1) **Run Test Scenarios** – Insert new records into SQL Server and verify the pipeline execution.
 2) **Validate Power BI Dashboards** – Ensure reports reflect the latest data updates.
+
+![Azure End to End Flow](Screenshots/Azure%20End%20to%20End%20flow.png)
 
 ## Conclusion :
 

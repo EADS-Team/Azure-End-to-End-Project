@@ -6,6 +6,8 @@ This project is designed as a data engineering pipeline solution to address a si
 
 The goal of this project is to build a comprehensive data pipeline on Azure, enabling the extraction of customer and sales data from an on-premises SQL database, transforming it in the cloud, and generating insightful reports through a Power BI dashboard. The dashboard will offer key performance indicators (KPIs) related to gender distribution and product category sales, allowing stakeholders to filter and analyze data based on date, product category, and gender.
 
+![Azure Workflow](Screenshots/Azure%20End%20to%20End%20Workflow%20Image.png)
+
 ## Business Requirements:
 
 The business aims to gain a deeper understanding of customer demographics—particularly gender distribution—and its influence on purchasing behavior. The primary requirements include:
